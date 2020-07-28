@@ -64,7 +64,7 @@ void alertas(float distancia)
   {
     // Encendemos el LED verde
     digitalWrite(LEDVERDE, HIGH);
-    tone(BUZZER, 2000, 200);
+    tone(BUZZER, 1000, 200);
   }
   else if (distancia < umbral2 && distancia > umbral3)
   {
