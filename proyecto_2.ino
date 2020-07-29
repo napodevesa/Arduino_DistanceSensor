@@ -76,7 +76,7 @@ void alertas(float distancia)
   {
     // Encendemos el LED rojo
     digitalWrite(LEDROJO, HIGH);
-    tone(BUZZER, 3000, 200);
+    tone(BUZZER, 1000, 200);
   }
 }
  
