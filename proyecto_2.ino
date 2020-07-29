@@ -93,7 +93,7 @@ float calcularDistancia()
   Serial.print(distancia);
   Serial.print("cm");
   Serial.println();
-  delay(1000);
+  delay(3000);
  
   return distancia;
 }
