@@ -70,7 +70,7 @@ void alertas(float distancia)
   {
     // Encendemos el LED amarillo
     digitalWrite(LEDAMARILLO, HIGH);
-    tone(BUZZER, 2000, 200);
+    tone(BUZZER, 200, 200);
   }
   else if (distancia <= umbral3)
   {
