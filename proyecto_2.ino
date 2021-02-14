@@ -1,4 +1,4 @@
-// Pines utilizados
+// Pines utilizados //
 #define LEDVERDE 2
 #define LEDAMARILLO 3
 #define LEDROJO 4
