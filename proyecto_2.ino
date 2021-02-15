@@ -1,4 +1,4 @@
-// Pines utilizados //
+// Pines utilizados 
 #define LEDVERDE 2
 #define LEDAMARILLO 3
 #define LEDROJO 4
@@ -93,7 +93,7 @@ float calcularDistancia()
   Serial.print(distancia);
   Serial.print("cm");
   Serial.println();
-  delay(3000);
+  delay(300);
  
   return distancia;
 }
